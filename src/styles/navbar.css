@@ -1,0 +1,40 @@
+.nav_container{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 9vh;
+}
+
+.nav_container ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_container ul li{
+    color: white
+}
+
+.nav_button{
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(175, 117, 9);
+    cursor: pointer;
+    margin: 5px;
+    border-bottom: 5px solid rgb(175, 117, 9);
+    transition: border-bottom, background-color;
+    transition-duration: 1s;
+}
+
+.nav_button:hover{
+    background-color: rgba(255, 255, 255, 0.986);
+    border-bottom: 5px solid rgb(175, 117, 9);
+    color: rgb(175, 117, 9);
+}
+
+.logo{
+    width: 5rem;
+    border-radius: 50%;
+}

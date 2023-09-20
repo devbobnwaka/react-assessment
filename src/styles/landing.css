@@ -1,0 +1,62 @@
+.landing_page_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(106, 96, 96);
+    background-image: url('../assest/images/background_landing_page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
+.landing_body{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_content{
+    width: 40rem;
+    height: 20rem;
+    color: white;
+    text-align: center;
+}
+
+.landing_content div{
+    margin: 0 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.landing_content button{
+    width: 10rem;
+    height: 3rem;
+    margin: auto;
+    background-color: rgb(175, 117, 9);
+    padding: .5rem;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+
+.arrow_right{
+    width: 0px;
+    height: 0px;
+    color: white;
+    margin: .5rem; 
+    transition-duration: .5s;
+}
+
+.btn:hover .arrow_right {
+    width: 20px;
+    height: 20px;
+}
+
